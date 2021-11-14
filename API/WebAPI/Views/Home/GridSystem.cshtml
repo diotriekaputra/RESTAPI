@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Grid System";
+    Layout = "_LayoutDashboard";
+    @*Layout = "_LayoutBelajar";*@
+}
+
+@*navbar navbar-expand-sm bg-dark navbar-dark fixed-top*@
+
+<div class="container">
+    <div class="mb-3 mt-3">
+        <h1 id="grid" class="">GRID SYSTEM </h1>
+    </div>
+    <section id="a">
+        <div class="row mb-5">
+            <div id="b" class="col">
+                <p class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius ut dolor et ornare. Fusce venenatis justo quis justo aliquet molestie. Etiam eros eros, eleifend non faucibus a, dictum non dolor. Phasellus in ex faucibus, laoreet lorem at, laoreet nisl. Morbi a sagittis massa. Nullam fringilla condimentum tempus. In sit amet rutrum orci. Cras egestas et odio quis commodo. Vestibulum sollicitudin porta risus scelerisque maximus. Ut finibus tristique posuere. Mauris facilisis auctor sodales. Duis eu turpis urna. Mauris vel lorem est. Etiam efficitur hendrerit dui, vel molestie nulla ullamcorper non. Donec mollis nisi nec sodales molestie. Morbi nunc dolor, condimentum ac pretium non, ornare congue turpis.
+                </p>
+                <p id="a" class="two">
+                    Curabitur tempus dictum est, ac tempus odio malesuada sit amet. Cras ac rutrum lorem. Donec dolor ante, mattis eu posuere in, vehicula vestibulum ex. Sed sed nulla mollis, lobortis orci eu, sodales ipsum. Nulla vestibulum justo vel mi congue aliquet. Pellentesque ut mauris massa. In hac habitasse platea dictumst. Aliquam erat volutpat. Curabitur id ultricies metus, vel aliquam massa. Proin viverra sed nisi tempus cursus. Morbi erat tortor, dignissim vitae mattis eget, blandit et nunc. Ut a gravida odio. In urna urna, tempus sagittis tortor sed, pellentesque consequat sem.
+                </p>
+            </div>
+            <div class="col">
+                <p class="three">
+                    Pellentesque efficitur lorem neque. Nulla imperdiet tempus luctus. Nunc dictum tortor nulla, et luctus orci sodales luctus. Praesent volutpat velit nibh, id sollicitudin lacus consequat mattis. Quisque interdum in dolor pretium lacinia. Maecenas feugiat leo sit amet ex pharetra convallis. Fusce at est lacinia magna commodo vestibulum. Donec nec volutpat lectus. Etiam pretium ac justo sed congue. Quisque semper at tortor eu scelerisque. Morbi suscipit convallis tortor, vitae ultrices quam maximus sed. Quisque tristique rutrum interdum. In hac habitasse platea dictumst. Nam tristique ligula quis elit auctor, vitae interdum risus luctus.
+
+                    Phasellus eros mauris, placerat in molestie quis, efficitur ac libero. Proin pulvinar consequat auctor. In mattis interdum purus. Ut sed ultrices nulla. Etiam sagittis, nulla vel placerat finibus, odio augue vestibulum augue, ac luctus metus massa id velit. Etiam pharetra at est non blandit. Phasellus et justo sit amet leo auctor sagittis eget eu mi. Maecenas condimentum malesuada arcu, in ultricies odio ultrices commodo. Quisque non libero feugiat, tincidunt lacus ac, posuere justo.
+
+                    @*Nullam sit amet nulla volutpat, hendrerit tellus eget, imperdiet lacus. In varius libero et nisi pellentesque, eu tempus purus congue. Morbi nec nunc laoreet metus blandit vestibulum et id urna. Suspendisse consectetur, felis convallis aliquam varius, erat est finibus est, ac feugiat arcu sapien ac nulla. Suspendisse potenti. Aliquam feugiat mollis dui, vitae elementum lectus condimentum eget. Fusce eleifend, nibh a fermentum dapibus, nisi felis euismod velit, eu lacinia nibh ligula vel est. Nam vel mauris quis orci suscipit faucibus vel sed mi. Phasellus id risus in sem dignissim ultricies id quis odio. Nunc molestie auctor vehicula. Nulla dictum quam in dolor venenatis pulvinar. Pellentesque venenatis volutpat sodales. Nam rutrum hendrerit porttitor. Integer viverra justo augue, non fermentum ipsum ornare sed. Vestibulum vestibulum sem quis arcu tempus, eu tincidunt nisi facilisis.*@
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="b">
+        <p id="a" class="b">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius ut dolor et ornare. Fusce venenatis justo quis justo aliquet molestie.
+        </p>
+        <ul>
+            <li class="List">List 1</li>
+            <li class="List">List 2</li>
+            <li class="List">List 3</li>
+        </ul>
+        <button class="btn-submit" onclick="panggilAllert()">Submit</button>
+        @*<div class="row mb-5">
+            <div class="col">
+                <div class="mb-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius ut dolor et ornare. Fusce venenatis justo quis justo aliquet molestie. Etiam eros eros, eleifend non faucibus a, dictum non dolor. Phasellus in ex faucibus, laoreet lorem at, laoreet nisl. Morbi a sagittis massa. Nullam fringilla condimentum tempus. In sit amet rutrum orci. Cras egestas et odio quis commodo. Vestibulum sollicitudin porta risus scelerisque maximus. Ut finibus tristique posuere. Mauris facilisis auctor sodales. Duis eu turpis urna. Mauris vel lorem est. Etiam efficitur hendrerit dui, vel molestie nulla ullamcorper non. Donec mollis nisi nec sodales molestie. Morbi nunc dolor, condimentum ac pretium non, ornare congue turpis.
+                </div>
+                <div class="two">
+                    Curabitur tempus dictum est, ac tempus odio malesuada sit amet. Cras ac rutrum lorem. Donec dolor ante, mattis eu posuere in, vehicula vestibulum ex. Sed sed nulla mollis, lobortis orci eu, sodales ipsum. Nulla vestibulum justo vel mi congue aliquet. Pellentesque ut mauris massa. In hac habitasse platea dictumst. Aliquam erat volutpat. Curabitur id ultricies metus, vel aliquam massa. Proin viverra sed nisi tempus cursus. Morbi erat tortor, dignissim vitae mattis eget, blandit et nunc. Ut a gravida odio. In urna urna, tempus sagittis tortor sed, pellentesque consequat sem.
+                </div>
+            </div>
+            <div class="col">
+                <div class="three">
+                    Pellentesque efficitur lorem neque. Nulla imperdiet tempus luctus. Nunc dictum tortor nulla, et luctus orci sodales luctus. Praesent volutpat velit nibh, id sollicitudin lacus consequat mattis. Quisque interdum in dolor pretium lacinia. Maecenas feugiat leo sit amet ex pharetra convallis. Fusce at est lacinia magna commodo vestibulum. Donec nec volutpat lectus. Etiam pretium ac justo sed congue. Quisque semper at tortor eu scelerisque. Morbi suscipit convallis tortor, vitae ultrices quam maximus sed. Quisque tristique rutrum interdum. In hac habitasse platea dictumst. Nam tristique ligula quis elit auctor, vitae interdum risus luctus.
+
+                    Phasellus eros mauris, placerat in molestie quis, efficitur ac libero. Proin pulvinar consequat auctor. In mattis interdum purus. Ut sed ultrices nulla. Etiam sagittis, nulla vel placerat finibus, odio augue vestibulum augue, ac luctus metus massa id velit. Etiam pharetra at est non blandit. Phasellus et justo sit amet leo auctor sagittis eget eu mi. Maecenas condimentum malesuada arcu, in ultricies odio ultrices commodo. Quisque non libero feugiat, tincidunt lacus ac, posuere justo.
+
+                    Nullam sit amet nulla volutpat, hendrerit tellus eget, imperdiet lacus. In varius libero et nisi pellentesque, eu tempus purus congue. Morbi nec nunc laoreet metus blandit vestibulum et id urna. Suspendisse consectetur, felis convallis aliquam varius, erat est finibus est, ac feugiat arcu sapien ac nulla. Suspendisse potenti. Aliquam feugiat mollis dui, vitae elementum lectus condimentum eget. Fusce eleifend, nibh a fermentum dapibus, nisi felis euismod velit, eu lacinia nibh ligula vel est. Nam vel mauris quis orci suscipit faucibus vel sed mi. Phasellus id risus in sem dignissim ultricies id quis odio. Nunc molestie auctor vehicula. Nulla dictum quam in dolor venenatis pulvinar. Pellentesque venenatis volutpat sodales. Nam rutrum hendrerit porttitor. Integer viverra justo augue, non fermentum ipsum ornare sed. Vestibulum vestibulum sem quis arcu tempus, eu tincidunt nisi facilisis.
+                </div>
+            </div>
+        </div>*@
+    </section>
+</div>
+
+@*<h1 id="judul">Ini Judul</h1>
+<h1 id="judul">Ini Judul Paragraf</h1>
+<div class="containera">
+    <section id="a">
+        <p class="p1">Paragraf 1</p>
+        <p class="p2">Paragraf 2</p>
+        <a href="#">Ini Link</a>
+        <p class="p3">Paragraf 3</p>
+        <div id="b">
+            <p id="a">Halo</p>
+        </div>
+    </section>
+    <section id="b">
+        <p id="a" class="b">Paragraf 4</p>
+        <ul>
+            <li class="List">List 1</li>
+            <li class="List">List 2</li>
+            <li class="List">List 3</li>
+        </ul>
+        <button class="btn-submit" onclick="panggilAllert()">Submit</button>
+    </section>
+</div>*@
+
+
+    @*<div class="one">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius ut dolor et ornare. Fusce venenatis justo quis justo aliquet molestie. Etiam eros eros, eleifend non faucibus a, dictum non dolor. Phasellus in ex faucibus, laoreet lorem at, laoreet nisl. Morbi a sagittis massa. Nullam fringilla condimentum tempus. In sit amet rutrum orci. Cras egestas et odio quis commodo. Vestibulum sollicitudin porta risus scelerisque maximus. Ut finibus tristique posuere. Mauris facilisis auctor sodales. Duis eu turpis urna. Mauris vel lorem est. Etiam efficitur hendrerit dui, vel molestie nulla ullamcorper non. Donec mollis nisi nec sodales molestie. Morbi nunc dolor, condimentum ac pretium non, ornare congue turpis.
+        </div>
+        <div class="two">
+            Curabitur tempus dictum est, ac tempus odio malesuada sit amet. Cras ac rutrum lorem. Donec dolor ante, mattis eu posuere in, vehicula vestibulum ex. Sed sed nulla mollis, lobortis orci eu, sodales ipsum. Nulla vestibulum justo vel mi congue aliquet. Pellentesque ut mauris massa. In hac habitasse platea dictumst. Aliquam erat volutpat. Curabitur id ultricies metus, vel aliquam massa. Proin viverra sed nisi tempus cursus. Morbi erat tortor, dignissim vitae mattis eget, blandit et nunc. Ut a gravida odio. In urna urna, tempus sagittis tortor sed, pellentesque consequat sem.
+        </div>
+        <div class="three">
+            Pellentesque efficitur lorem neque. Nulla imperdiet tempus luctus. Nunc dictum tortor nulla, et luctus orci sodales luctus. Praesent volutpat velit nibh, id sollicitudin lacus consequat mattis. Quisque interdum in dolor pretium lacinia. Maecenas feugiat leo sit amet ex pharetra convallis. Fusce at est lacinia magna commodo vestibulum. Donec nec volutpat lectus. Etiam pretium ac justo sed congue. Quisque semper at tortor eu scelerisque. Morbi suscipit convallis tortor, vitae ultrices quam maximus sed. Quisque tristique rutrum interdum. In hac habitasse platea dictumst. Nam tristique ligula quis elit auctor, vitae interdum risus luctus.
+
+            Phasellus eros mauris, placerat in molestie quis, efficitur ac libero. Proin pulvinar consequat auctor. In mattis interdum purus. Ut sed ultrices nulla. Etiam sagittis, nulla vel placerat finibus, odio augue vestibulum augue, ac luctus metus massa id velit. Etiam pharetra at est non blandit. Phasellus et justo sit amet leo auctor sagittis eget eu mi. Maecenas condimentum malesuada arcu, in ultricies odio ultrices commodo. Quisque non libero feugiat, tincidunt lacus ac, posuere justo.
+
+            Nullam sit amet nulla volutpat, hendrerit tellus eget, imperdiet lacus. In varius libero et nisi pellentesque, eu tempus purus congue. Morbi nec nunc laoreet metus blandit vestibulum et id urna. Suspendisse consectetur, felis convallis aliquam varius, erat est finibus est, ac feugiat arcu sapien ac nulla. Suspendisse potenti. Aliquam feugiat mollis dui, vitae elementum lectus condimentum eget. Fusce eleifend, nibh a fermentum dapibus, nisi felis euismod velit, eu lacinia nibh ligula vel est. Nam vel mauris quis orci suscipit faucibus vel sed mi. Phasellus id risus in sem dignissim ultricies id quis odio. Nunc molestie auctor vehicula. Nulla dictum quam in dolor venenatis pulvinar. Pellentesque venenatis volutpat sodales. Nam rutrum hendrerit porttitor. Integer viverra justo augue, non fermentum ipsum ornare sed. Vestibulum vestibulum sem quis arcu tempus, eu tincidunt nisi facilisis.
+        </div>*@
+    <!-- Footer -->
+    <!-- Footer -->
+    @*<div class="text-center">
+            <h1 class="display-4">Welcome</h1>
+            <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        </div>*@
+
+    @*<div class="header">
+            <h1>Judul</h1>
+        </div>
+
+        <p>Ini Paragraf</p>
+
+        <a href="">Link 1</a>
+        <a href="">Link 2</a>
+        <a href="">Link 3</a>
+
+        <div id="iniid" class="iniclass">
+
+        </div>
+
+        <div class="gambar">
+            <img src="https://asset.kompas.com/crops/z5s35e04XSesog8-mpgCtUnGtQE=/3x1:725x482/750x500/data/photo/2021/05/12/609ba67f4bbc7.png" alt="" width="400px" height="200px"/>
+        </div>
+
+        <ul>
+            <li class="list"></li>
+            <li class="list"></li>
+            <li class="list"></li>
+        </ul>*@
+    @*<div class="pembungkus">
+            <div class="one">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius ut dolor et ornare. Fusce venenatis justo quis justo aliquet molestie. Etiam eros eros, eleifend non faucibus a, dictum non dolor. Phasellus in ex faucibus, laoreet lorem at, laoreet nisl. Morbi a sagittis massa. Nullam fringilla condimentum tempus. In sit amet rutrum orci. Cras egestas et odio quis commodo. Vestibulum sollicitudin porta risus scelerisque maximus. Ut finibus tristique posuere. Mauris facilisis auctor sodales. Duis eu turpis urna. Mauris vel lorem est. Etiam efficitur hendrerit dui, vel molestie nulla ullamcorper non. Donec mollis nisi nec sodales molestie. Morbi nunc dolor, condimentum ac pretium non, ornare congue turpis.
+            </div>
+
+            <div class="two">
+                Curabitur tempus dictum est, ac tempus odio malesuada sit amet. Cras ac rutrum lorem. Donec dolor ante, mattis eu posuere in, vehicula vestibulum ex. Sed sed nulla mollis, lobortis orci eu, sodales ipsum. Nulla vestibulum justo vel mi congue aliquet. Pellentesque ut mauris massa. In hac habitasse platea dictumst. Aliquam erat volutpat. Curabitur id ultricies metus, vel aliquam massa. Proin viverra sed nisi tempus cursus. Morbi erat tortor, dignissim vitae mattis eget, blandit et nunc. Ut a gravida odio. In urna urna, tempus sagittis tortor sed, pellentesque consequat sem.
+            </div>
+
+            <div class="three">
+                Pellentesque efficitur lorem neque. Nulla imperdiet tempus luctus. Nunc dictum tortor nulla, et luctus orci sodales luctus. Praesent volutpat velit nibh, id sollicitudin lacus consequat mattis. Quisque interdum in dolor pretium lacinia. Maecenas feugiat leo sit amet ex pharetra convallis. Fusce at est lacinia magna commodo vestibulum. Donec nec volutpat lectus. Etiam pretium ac justo sed congue. Quisque semper at tortor eu scelerisque. Morbi suscipit convallis tortor, vitae ultrices quam maximus sed. Quisque tristique rutrum interdum. In hac habitasse platea dictumst. Nam tristique ligula quis elit auctor, vitae interdum risus luctus.
+
+                Phasellus eros mauris, placerat in molestie quis, efficitur ac libero. Proin pulvinar consequat auctor. In mattis interdum purus. Ut sed ultrices nulla. Etiam sagittis, nulla vel placerat finibus, odio augue vestibulum augue, ac luctus metus massa id velit. Etiam pharetra at est non blandit. Phasellus et justo sit amet leo auctor sagittis eget eu mi. Maecenas condimentum malesuada arcu, in ultricies odio ultrices commodo. Quisque non libero feugiat, tincidunt lacus ac, posuere justo.
+            </div>
+        </div>*@
+
+    @*<div class="footer">
+                <ul>
+                    <li class="list">List 1</li>
+                    <li class="list">List 2</li>
+                    <li class="list">List 3</li>
+                </ul>
+        </div>*@
+
+

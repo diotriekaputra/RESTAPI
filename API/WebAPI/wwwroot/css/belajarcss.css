@@ -1,0 +1,159 @@
+﻿.one {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    margin-top: 20px;
+    /*margin-bottom: 75px;*/
+}
+
+.two {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    /*margin-bottom: 75px;*/
+}
+
+.three {
+    width: 500px;
+    height: 600px;
+    position : absolute;
+    top: 75px;
+    right: 120px;
+}
+
+
+/*h1 {
+    background-color: cyan;
+}
+
+p {
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+}*/
+    /*header a {
+    background-color: deepskyblue;*/
+    /*width: 100px;
+    height: 100px;
+    display: inline-block;*/
+    /*}*/
+    /*.header {
+    background-color: salmon;
+    width: 400px;
+    height: 50px;
+}*/
+    /*div{
+    display: inline-block;
+}*/
+    /*.one {
+    width: 400px;
+    height: 200px;
+    background-color: dodgerblue;*/
+    /*margin: 10px 20px 30px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: aqua;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    overflow: auto;*/
+    /*position: relative;
+    overflow: auto;
+}
+
+.two {
+    width: 400px;
+    height: 200px;
+    background-color: lightskyblue;*/
+    /*margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    position: relative;
+    top: -50px;
+    left: 50px;
+    z-index: 1;*/
+    /*position: relative;
+    overflow: auto;
+}
+
+.three {
+    width: 400px;
+    height: 400px;
+    background-color: mediumslateblue;*/
+    /*position: relative;
+    top: -80px;
+    left: 70px;
+    z-index: 0;*/
+    /*position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: auto;
+}*/
+    /*.one::after {
+    background-color: blueviolet;
+}*/
+    /*.one:hover {
+    background-color: blueviolet;
+}
+
+.two:hover {
+    background-color: blueviolet;
+}
+
+.three:hover {
+    background-color: blueviolet;
+}
+
+a:hover {
+    background-color: skyblue;
+}
+
+.pembungkus {
+    width: 800px;
+    height: 403px;
+    border: 2px solid black;
+    margin: auto;
+    position: relative;
+}
+
+.footer {
+    position: relative;
+    list-style-type: none;
+}*/
+
+* {
+    border: 2px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/*.p {
+    background-color: pink;
+}*/
+
+section#b p#a {
+    background-color:pink;
+}
+
+.list:nth-child(2):hover {
+    background-color: lightblue;
+}
+
+
+
